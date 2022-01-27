@@ -10,6 +10,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './dist'),
     filename: '[name].bundle.js',
+    publicPath: '/',
   },
   mode: 'development',
   devServer: {
@@ -55,6 +56,6 @@ module.exports = {
     ],
   },
   resolve: {
-      extensions: ['*', '.js', '.jsx'],
+      extensions: ['*', '.js', '.jsx','.css','scss'],
   },
 }

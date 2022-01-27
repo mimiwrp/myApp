@@ -1,24 +1,21 @@
 import React from 'react';
-// import 'src/styles/main.scss';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Dashboard from './Dashboard/Dashboard';
+import './style.css';
+// import Button from '@mui/material/Button';
+import { BrowserRouter, Router, Route, Routes } from 'react-router-dom';
+import IconMood from './iconMood';
+import Register from './register';
+import { useRoutes } from 'react-router-dom';
+// import Dashboard from './Dashboard/Dashboard';
 // import Preferences from './Preferences/Preferences';
 
 function App() {
   return (
     <div className="wrapper">
-      <h1>Application</h1>
-      {/* <BrowserRouter>
-        <Routes>
-          <Route path="/dashboard"> */}
-            <Dashboard />
-          {/* </Route> */}
-          {/* <Route path="/preferences">
-            <Preferences />
-          </Route>
-        </Routes> */}
-      {/* </BrowserRouter> */}
+      <h1>Cheer Me Up</h1>
+          <Register/>
+          <IconMood/> 
     </div>
+
   );
 }
 

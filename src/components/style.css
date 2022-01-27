@@ -1,0 +1,38 @@
+html {
+    background-color: rgb(236, 236, 216);
+    color: rgb(88, 141, 240);
+}
+
+.wrapper {
+    max-width: 500px;
+    margin: auto;
+}
+
+.Box {
+    background-color: rgb(192, 235, 255);
+    width: 500px;
+    height: 150px;
+    /* display: flex;
+    justify-content: center; */
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+.Box Button {
+    width: 90px;
+    height: 90px;
+    background-color: rgb(142, 179, 209);
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+}
+
+#register {
+
+}
