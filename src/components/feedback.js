@@ -19,9 +19,7 @@ function FloatingActionButtons() {
       <Fab color='primary' aria-label="like">
         <FavoriteIcon />
       </Fab>
-      {/* <Fab color='primary' aria-label="like">
-        <Test />
-      </Fab> */}
+
     </Box>
   );
 }

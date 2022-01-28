@@ -18,11 +18,11 @@ function App() {
   return (
     <div className="wrapper">
       <h1 className="font-link">Cheer Me Up</h1>
-      <h4>I feel {feeling}</h4>
+      {/* <h4>I feel {feeling}</h4> */}
       <Register />
-      <IconMood feeling={getFeeling} />
-      <Vdo/>
-      <FloatingActionButtons />
+      <IconMood passFeeling={getFeeling} />
+      <Vdo currentMood={feeling} />
+      {/* <FloatingActionButtons /> */}
     </div>
   );
 }

@@ -5,6 +5,7 @@ html {
 
 .font-link {
     font-family: 'Quicksand', sans-serif;
+    text-align: center;
 }
 
 .wrapper {
@@ -40,4 +41,8 @@ img {
 
 .fb {
     text-align: center;
+}
+
+.videoTiktok{
+    height: 100px;
 }

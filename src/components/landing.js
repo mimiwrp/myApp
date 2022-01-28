@@ -11,7 +11,7 @@ function iconMood(props) {
   //   let navigate = useNavigate();
   function handleClick(buttonFeeling) {
     // console.log(buttonFeeling);
-    props.feeling(buttonFeeling);
+    props.passFeeling(buttonFeeling);
     // //   navigate('./videoPage.js');
     // let check = 0;
     // if (check === 0) {
@@ -30,15 +30,13 @@ function iconMood(props) {
           <Button onClick={handleClick.bind(this, "happy")} variant="contained">
             <img src="https://img.icons8.com/ios-glyphs/90/000000/happy--v1.png" />
           </Button>
-
           <Button onClick={handleClick.bind(this, "bored")} variant="contained">
             <img src="https://img.icons8.com/ios-glyphs/90/000000/neutral-emoticon--v2.png" />
           </Button>
-
           <Button onClick={handleClick.bind(this, "stressful")} variant="contained">
             <img src="https://img.icons8.com/ios-glyphs/90/000000/sad.png" />
           </Button>
-
+          
           <div className="font-link">
             <span>Happy</span> <span>Bored</span> <span>Stressful</span>
           </div>
