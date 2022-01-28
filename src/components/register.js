@@ -5,8 +5,8 @@ import './style.css';
 function register() {
   return (
     <nav>
-        <Button variant="contained" id="register">Sign up</Button>
-        <Button variant="contained" id="register">Sign in</Button>
+        <Button disabled variant="contained" id="register">Sign up</Button>
+        <Button disabled variant="contained" id="register">Sign in</Button>
     </nav>
 
   );

@@ -3,6 +3,10 @@ html {
     color: rgb(88, 141, 240);
 }
 
+.font-link {
+    font-family: 'Quicksand', sans-serif;
+}
+
 .wrapper {
     max-width: 500px;
     margin: auto;
@@ -11,7 +15,7 @@ html {
 .Box {
     background-color: rgb(192, 235, 255);
     width: 500px;
-    height: 150px;
+    height: 190px;
     /* display: flex;
     justify-content: center; */
 }
@@ -26,6 +30,7 @@ h1, h3 {
     background-color: rgb(142, 179, 209);
     margin-right: 10%;
     margin-left: 5%;
+
 }
 
 img {
@@ -33,6 +38,6 @@ img {
     justify-content: center;
 }
 
-#register {
-
+.fb {
+    text-align: center;
 }
